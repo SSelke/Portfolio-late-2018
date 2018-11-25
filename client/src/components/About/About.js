@@ -15,7 +15,7 @@ class About extends Component {
                     <div className="row">
                         <div className="col">
                             <h3>Scott Selke | Web Developer and Designer</h3>
-                            <p>Since turning my passion into a career, I have worked as a freelance developer for the past year.</p>
+                            <p>Since turning my passion into a career, I have worked as a freelance developer for the past year. In this time I have created everything from landing pages to web applications.</p>
                         </div>
                     </div>
                 </div>
