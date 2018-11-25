@@ -1,0 +1,170 @@
+.home-header {
+        margin: 2rem;
+
+        h1 {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-top: 0.8rem;
+        } 
+    }
+
+.main {
+    height: 650px;
+}
+
+.home-images {
+    height: 30%;
+}
+
+.home-message {
+    color: white; 
+    height: 70%;
+    width: 100%;
+    background: rgb(27, 164, 156);
+    text-align: center;
+
+    div {
+        transform: translateY(50px);
+
+        h1 {
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        p {
+            font-size: 1.15rem;
+            margin-top: 1.5rem;
+            margin: auto;
+            width: 75%;
+            display: inline-block;
+        }
+    }
+}
+
+.home-skillz {
+    background: #FFF;
+    border-radius: 20px;
+    border: 3px solid #f1f1f1;
+    box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-100px);
+    width: 90%;
+    font-weight: 500;
+
+     .col:before {
+        background: #f1f1f1;
+        bottom: 0;
+        content: " ";
+        left: 0;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        top: 0;
+    }
+
+    .col:first-child:before {
+        display: none;
+    }
+
+    i, h5 {
+        color: rgb(27, 164, 156);
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    p {
+        width: 300px !important;
+        margin: auto;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+.skillz-container {
+    margin-top: 80px;
+}
+
+.skillz-content {
+    margin: 60px auto;
+}
+
+@media( min-width: 767px) {
+   .home-header {
+        margin: 4rem;
+
+        h1 {
+            font-weight: 700;
+            font-size: 3.2rem;
+        }
+
+        p {
+            font-size: 1.75rem;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .main {
+        height: 800px;
+    }
+
+    .home-message {
+        div {
+            transform: translateY(100px);
+
+            h1 {
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.25rem;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+
+    .home-skillz {
+        height: 1000px;
+        transform: translateY(-200px);
+
+        .col:after {
+            background: #f1f1f1;
+            bottom: 0;
+            content: " ";
+            left: 0;
+            position: absolute;
+            width: 3px;
+            top: 0;
+        }
+
+        .col:first-child:after {
+            display: none;
+        }
+
+        .col:last-child:before {
+            display: none;
+        }
+
+        i {
+            font-size: 2rem;
+        }
+
+        p {
+            width: 200px;
+            margin: auto;
+        }
+
+        li {
+            margin: 0.5rem;
+        }
+
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-late-2018",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "heroku-postbuild": "cd client && npm install && npm run build && cd ..",
+    "backend": "nodemon ./bin/www",
+    "frontend": "npm run start --prefix ./client",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "nodemon": "^1.18.6"
+  }
+}
