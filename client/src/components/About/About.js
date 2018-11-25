@@ -11,7 +11,7 @@ class About extends Component {
                     <h2>About</h2>
                 </div>  
                 <div className="container">
-                    <img src='/images/me.jpeg' alt="" />
+                    <img src='/public/images/me.jpeg' alt="" />
                     <div className="row">
                         <div className="col">
                             <h3>Scott Selke | Web Developer and Designer</h3>
