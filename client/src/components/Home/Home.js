@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
-import '../About/About.scss';
+import './About.scss';
+import './Resources.scss';
 import './Home.scss';
 
 class Home extends Component {
     render() {
         return (
             <div className="container-fluid m-0 p-0 text-center h-100">
-                <header>
-                    <nav className="d-flex justify-content-end">
-                        <button className="btn btn-outline-info btn-bg">Contact</button>
-                    </nav>
+                <header className="container mt-5">
+                    <div className="d-flex justify-content-between">
+                        <div><img src="/public/images/logo.svg" height="50" alt=""/></div>
+                        <div><button className="btn header-contact">Say Hi</button></div>
+                    </div>
                 </header>
                 <div className="home-header">
                     <h1>Full-Stack Developer, Designer, and Professional Nerd</h1>
                     <p className="text-muted">I am a dynamic and detail-oriented developer with a keen eye for design.</p>
                 </div>
                 <div className="container-fluid m-0 p-0 main">
-                    <div className="home-images"></div>
+                    <div className="home-images">
+                        <img src="/public/images/mountains.svg" alt="" />
+                    </div>
                     <div className="home-message d-flex justify-content-center">
                         <div>
                             <h1 className="mb-2">What's Up, I'm Scottie.</h1>
-                            <p>I have a knack for delivering elegant, and user-friendly web apps efficiently and effectively. I have been a freelance developer for a year, a systems administrator for almost two years, and a nerd for 22 years. I am a self-proclaimed nerd because I truely enjoy developing tools for the world to use.</p>
+                            <p>I have a knack for delivering elegant, and user-friendly web apps efficiently and effectively. I have been a freelance developer for a year, a systems administrator for almost two years, and a functional programmer the last 4 years. I am a self-proclaimed nerd because I truely enjoy developing tools for the world to use.</p>
                         </div>
                     </div>
                 </div>
@@ -107,20 +111,21 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid m-0 p-0 text-center h-100">
-                    <div className="about-header">
-                        <h2>About</h2>
-                    </div>
-                    <div className="container">
-                        <img className="about-image" src='/public/images/me.jpeg' alt="" />
-                        <div className="row">
-                            <div className="col m-5">
-                                <div className="about-summary">
-                                    <h5>Scott Selke | Web Developer and Designer</h5>
-                                    <p>During highschool I took every Photoshop, Design and Programming class available to increase my technical skills. While in school, I was the president of our schools STEM program, which intailed going to other district schools and conferences to give speeches about the STEM initiative (700+ people usually). After highschool I completed Arizona CTE Engineering Sciences Program and recieved my certification of completion.</p>
-                                    <p>After graduating, I started my Associates degree at Mesa Community College where I studied Computer Science. To be honest, I did not finish college; it was too expensive and I had no way of continuing. Once I have a more stable work situation I plan on continuing my formal education. As stated above, I am a professional nerd and programming is my true passion. Since I left college in early 2018, I have lost myself in programming books and the most esteemed web bootcamps on the internet.</p>
-                                    <p>Since turning my passion into a career, I have worked as a freelance developer for the past year. Most of my clients projects were landing pages, website renovation, or independent web apps.</p>
-                                </div>
+                <div className="triangle"></div>
+                <div className="container-fluid m-0 footer text-white">
+                    <div className="row h-100">
+                        <div className="col-md-6 d-flex">
+                            <div className="mx-5 my-auto">
+                                <h1>Get in Touch</h1>
+                                <p className="text-muted my-3">It would be an honor for me to grow with you business.</p>
+                                <button className="btn btn-info float-left contact-footer my-3">Contact Me</button>
+                            </div>
+                        </div>
+                        <div className="col-md-6 d-flex">
+                            <div className="mx-5 my-auto contact-links">
+                                <div className="my-3"><i className="fab fa-github mr-3"></i><a href="https://github.com/SSelke?tab=repositories" target="_blank" rel="noopener noreferrer">Github // SSelke</a></div>
+                                <div className="my-3"><i className="fab fa-linkedin mr-3"></i><a href="https://www.linkedin.com/in/scott-selke/" target="_blank" rel="noopener noreferrer">LinkedIn // scott-selke</a></div>
+                                <div className="my-3"><i className="fab fa-twitch mr-3"></i><a href="https://www.twitch.tv/lofidevelopment" target="_blank" rel="noopener noreferrer">Twitch // LofiDevelopment</a></div>
                             </div>
                         </div>
                     </div>
