@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 //route handlers
 
-app.use('/contact', contactRouter);
+app.use('/api/contact', contactRouter);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/client/build/index.html'));

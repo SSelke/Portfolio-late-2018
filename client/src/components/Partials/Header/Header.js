@@ -46,9 +46,6 @@ class Header extends Component {
                                <Link style={style} to='/'>Home</Link>
                             </NavItem>
                             <NavItem className="my-3 mx-5">
-                               <Link style={style} to='/portfolio'>Portfolio</Link>
-                            </NavItem>
-                            <NavItem className="my-3 mx-5">
                                <Link style={style} to='/about'>About</Link>
                             </NavItem>
                             <NavItem className="my-3 mx-5">
