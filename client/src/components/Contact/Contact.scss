@@ -1,0 +1,61 @@
+.contact-page {
+    overflow: hidden;
+}
+
+.delete-button, .undo-button {
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border: 3px solid rgb(27, 164, 156);
+    color: rgb(27, 164, 156);
+
+    &:hover {
+        background: rgb(27, 164, 156);
+        color: #FFF;
+    }
+    
+    .fa-times {
+        transform: translate(-6px, -5px);
+        font-size: 2rem;
+    }
+
+    .fa-undo-alt {
+        transform: translate(-9px, -2px);
+        font-size: 1.7rem;
+    }
+}
+
+.header-text {
+    width: 80%;
+    font-weight: 400;
+}
+
+.form {
+    text-align: left;
+
+    button {
+        display: block;
+        height: 40px;
+        width: 250px;
+        border-radius: 30px;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media(min-width: 767px ) {
+    .header-text {
+        width: 600px;
+        color: #191a1d !important;
+        font-size: 2.5rem;
+    }
+
+   .form {
+        width: 60%;
+        margin: auto;
+
+        button {
+            height: 60px;
+        }
+    } 
+}

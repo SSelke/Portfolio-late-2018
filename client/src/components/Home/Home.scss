@@ -4,6 +4,7 @@
     font-size: 1.15rem;
     font-weight: 600;
     background: transparent;
+    color: rgb(27, 164, 156);
     border: 3px solid rgb(27, 164, 156);
     border-radius: 25px;
 
@@ -70,7 +71,7 @@
     border-radius: 20px;
     border: 3px solid #f1f1f1;
     box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.09);
-    transform: translateY(-80px);
+    transform: translateY(-150px);
     width: 90%;
     font-weight: 500;
 
@@ -174,6 +175,54 @@
     background-size:100%;
 }
 
+// Translate Y 1px to fix Chrome white line issue
+.triangle {
+    margin-top: 200px;
+    height: 100px;
+    transform: translateY(1px);
+    background-color: #191a1d;
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+}
+
+.footer {
+    height: 400px;
+    background-color: #191a1d;
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    i {
+        font-size: 1.5rem;
+    }
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .contact-footer {
+        height: 40px;
+        width: 150px;
+        border-radius: 30px;
+        font-size: 1rem;
+    }
+
+    .contact-links {
+        div {
+            text-align: start;
+
+            a {
+                color: #6c757d;
+            }
+        }
+    }
+}
+
 @media( min-width: 767px) {
     .home-images {
         height: 250px;
@@ -254,52 +303,33 @@
         }
 
     }
-}
 
-// Translate Y 1px to fix Chrome white line issue
-.triangle {
-    margin-top: 200px;
-    height: 100px;
-    transform: translateY(1px);
-    background-color: #191a1d;
-    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
-}
+    .footer {
+        height: 400px;
+        background-color: #191a1d;
 
-.footer {
-    height: 400px;
-    background-color: #191a1d;
+        h1 {
+            font-size: 3.5rem;
+            text-align: left;
+        }
+        p {
+            font-size: 2rem;
+            text-align: left;
+        }
 
-    h1 {
-        font-size: 3.5rem;
-        text-align: left;
-    }
-    p {
-        font-size: 2rem;
-        text-align: left;
-    }
+        i {
+            font-size: 2rem;
+        }
+        a {
+            text-decoration: none;
+            font-size: 2rem;
+        }
 
-    i {
-        font-size: 2rem;
-    }
-    a {
-        text-decoration: none;
-        font-size: 2rem;
-    }
-
-    .contact-footer {
-        height: 60px;
-        width: 250px;
-        border-radius: 30px;
-        font-size: 1.5rem;
-    }
-
-    .contact-links {
-        div {
-            text-align: start;
-
-            a {
-                color: #6c757d;
-            }
+        .contact-footer {
+            height: 60px;
+            width: 250px;
+            border-radius: 30px;
+            font-size: 1.5rem;
         }
     }
 }

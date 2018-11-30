@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './About.scss';
 import './Resources.scss';
 import './Home.scss';
@@ -7,10 +8,12 @@ class Home extends Component {
     render() {
         return (
             <div className="container-fluid m-0 p-0 text-center h-100">
-                <header className="container mt-5">
+                <header className="container pt-5">
                     <div className="d-flex justify-content-between">
                         <div><img src="/public/images/logo.svg" height="50" alt=""/></div>
-                        <div><button className="btn header-contact">Say Hi</button></div>
+                        <Link to="/contact">
+                            <div><button className="btn header-contact">Say Hi</button></div>
+                        </Link>
                     </div>
                 </header>
                 <div className="home-header">
@@ -118,7 +121,9 @@ class Home extends Component {
                             <div className="mx-5 my-auto">
                                 <h1>Get in Touch</h1>
                                 <p className="text-muted my-3">It would be an honor for me to grow with you business.</p>
-                                <button className="btn btn-info float-left contact-footer my-3">Contact Me</button>
+                                <Link to="/contact">
+                                    <button className="btn btn-info float-md-left float-sm-none contact-footer my-3">Contact Me</button>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-md-6 d-flex">
