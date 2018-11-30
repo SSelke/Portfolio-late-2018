@@ -112,7 +112,7 @@ class Home extends Component {
                         <h2>About</h2>
                     </div>
                     <div className="container">
-                        <img className="about-image" src='http://localhost:5000/public/images/me.jpeg' alt="" />
+                        <img className="about-image" src='/public/images/me.jpeg' alt="" />
                         <div className="row">
                             <div className="col m-5">
                                 <div className="about-summary">
