@@ -22,7 +22,7 @@ class Home extends Component {
                 </div>
                 <div className="container-fluid m-0 p-0 main">
                     <div className="home-images">
-                        <img src="http://localhost:5000/public/images/mountains.svg" alt="" />
+                        <img src="/public/images/mountains.svg" alt="" />
                     </div>
                     <div className="home-message d-flex justify-content-center">
                         <div>
