@@ -12,22 +12,24 @@ class Home extends Component {
                     <div className="d-flex justify-content-between">
                         <div><img src="/public/images/logo.svg" height="50" alt=""/></div>
                         <Link to="/contact">
-                            <div><button className="btn header-contact">Say Hi</button></div>
+                            <div><button className="btn header-contact">Contact</button></div>
                         </Link>
                     </div>
                 </header>
                 <div className="home-header">
-                    <h1>Full-Stack Developer, Designer, and Professional Nerd</h1>
-                    <p className="text-muted">I am a dynamic and detail-oriented developer with a keen eye for design.</p>
+                    <h1>Full-Stack Developer and Designer</h1>
+                    <p className="text-muted">Dynamic and Detail-Oriented Programmer With a Keen Eye for Design</p>
                 </div>
                 <div className="container-fluid m-0 p-0 main">
                     <div className="home-images">
-                        <img src="/public/images/mountains.svg" alt="" />
+                        <img src="http://localhost:5000/public/images/mountains.svg" alt="" />
                     </div>
                     <div className="home-message d-flex justify-content-center">
                         <div>
-                            <h1 className="mb-2">What's Up, I'm Scottie.</h1>
-                            <p>I have a knack for delivering elegant, and user-friendly web apps efficiently and effectively. I have been a freelance developer for a year, a systems administrator for almost two years, and a functional programmer the last 4 years. I am a self-proclaimed nerd because I truely enjoy developing tools for the world to use.</p>
+                            <h1 className="mb-2">Meet Scottie Selke</h1>
+                            <p>
+                                Full-stack developer based out of Phoenix, AZ with an expertise in delivering elegant and user-friendly web applications with efficiency and effectiveness. I have a combined experience as a freelance developer, systems administrator, and functional programmer working in multiple industries. My true passion is creating tools and services that the world can utilize to grow their business.  
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +39,7 @@ class Home extends Component {
                             <div className="mt-5 skillz-container">
                                 <i className="fa fa-code"></i>
                                 <h3 className="my-4">Full-Stack Developer</h3>
-                                <p>All of my apps are built with proper programming philosophies in mind. In my opinion, structured and reusable code is the best thing since In-N-Out burger.</p>
+                                <p>All of my applications are built with proper programming philosophies using structured and reusable code to reduce development time and future proof code.</p>
                                 <div className="skillz-content">
                                     <h5>Technologies</h5>
                                     <p>HTML5, CSS3: Sass - Less, JavaScript: ES5 - ES6, JQuery, React.js: Redux - Redux Thunk | React Router, Angluar5, Node,js: Express.js, Python: Flask - Django, MongoDB, MySQL, REST</p>
@@ -64,10 +66,16 @@ class Home extends Component {
                             <div className="mt-5 skillz-container h-100">
                                 <i className="fas fa-ruler-combined"></i>
                                 <h3 className="my-4">Designer</h3>
-                                <p>The End-Users experience is the most important aspect of a website to me. Prospects demand a website that is fluid, functional and attractive.</p>
+                                <p>The End-User's experience is critical for a business to convert a lead. Potential prospects are more willing to contact a business if the website is fluid, functional and attractive.</p>
                                 <div className="skillz-content">
-                                    <h5>What I design</h5>
-                                    <p>UX, UI, Logos, Animated SVGs</p>
+                                    <h5>Website Feature Set</h5>
+                                    <ul>
+                                        <li>UX</li>
+                                        <li>UI</li>
+                                        <li>Logos</li>
+                                        <li>Banners</li>
+                                        <li>SVGs</li>
+                                    </ul>
                                 </div>
                                 <div className="skillz-content">
                                     <h5>Design Tools</h5>
@@ -120,7 +128,7 @@ class Home extends Component {
                         <div className="col-md-6 d-flex">
                             <div className="mx-5 my-auto">
                                 <h1>Get in Touch</h1>
-                                <p className="text-muted my-3">It would be an honor for me to grow with you business.</p>
+                                <p className="text-muted my-3">Let's grow your business together.</p>
                                 <Link to="/contact">
                                     <button className="btn btn-info float-md-left float-sm-none contact-footer my-3">Contact Me</button>
                                 </Link>
