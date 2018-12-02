@@ -35,7 +35,7 @@ class Home extends Component {
                 </div>
                 <div className="container home-skillz">
                     <div className="row h-100">
-                        <div className="col m-0 h-100 text-center">
+                        <div className="col-md-6 col-sm-12 m-0 h-100 text-center">
                             <div className="mt-5 skillz-container">
                                 <i className="fa fa-code"></i>
                                 <h3 className="my-4">Full-Stack Developer</h3>
@@ -62,7 +62,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col m-0 h-100">
+                        <div className="col-md-6 col-sm-12 m-0 h-100">
                             <div className="mt-5 skillz-container h-100">
                                 <i className="fas fa-ruler-combined"></i>
                                 <h3 className="my-4">Designer</h3>

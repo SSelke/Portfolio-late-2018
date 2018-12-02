@@ -43,7 +43,7 @@
 
 .home-message {
     color: white; 
-    height: 70%;
+    height: 100%;
     width: 100%;
     background: rgb(27, 164, 156);
     text-align: center;
@@ -217,6 +217,16 @@
 
             a {
                 color: #6c757d;
+            }
+        }
+    }
+}
+
+@media( max-width: 390px ) {
+    .home-message {
+        div {
+            p {
+                font-size: 1rem;
             }
         }
     }
