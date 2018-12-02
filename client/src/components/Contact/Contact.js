@@ -11,7 +11,7 @@ class Contact extends Component {
         document.querySelector("#message").value = "";
     }
 
-    onFormSubmit = async (e) => {
+    onFormSubmit = (e) => {
         e.preventDefault();
         const name = document.querySelector("#name").value;
         const email = document.querySelector("#email").value;
@@ -23,7 +23,7 @@ class Contact extends Component {
             message: message
         }
 
-        await axios.post('/api/contact', {data});
+        axios.post('/api/contact', {data});
         this.props.history.push("/");
     }
 
