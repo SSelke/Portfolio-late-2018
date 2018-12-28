@@ -99,9 +99,9 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-4 my-3">
-                                <a href="http://retro-archive.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                                    <div className="recent-work-tile retro">
-                                        <div className="hover d-flex align-items-center justify-content-center"><h4>Retro Archive</h4></div>
+                                <a href="http://www.happyperm.com" target="_blank" rel="noopener noreferrer">
+                                    <div className="recent-work-tile happy_perm">
+                                        <div className="hover d-flex align-items-center justify-content-center"><h4>Happy Perm</h4></div>
                                     </div>
                                 </a>
                             </div>
@@ -113,9 +113,9 @@ class Home extends Component {
                                 </a>
                             </div>
                             <div className="col-md-4 my-3">
-                                <a href="http://revenue-calculator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                                    <div className="recent-work-tile revenue">
-                                        <div className="hover d-flex align-items-center justify-content-center"><h4>Revenue Calculator</h4></div>
+                                <a href="http://retro-archive.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                    <div className="recent-work-tile retro">
+                                        <div className="hover d-flex align-items-center justify-content-center"><h4>Retro Archive</h4></div>
                                     </div>
                                 </a>
                             </div>
