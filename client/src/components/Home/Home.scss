@@ -16,14 +16,7 @@
 
 .links {
     display: flex;
-}
-
-@media(max-width: 700px) {
-    .header-contact {
-        width: 80px;
-        font-size: 0.9rem;
-    }
-     a {
+       a {
          border-top-right-radius: 0 !important;
          border-bottom-right-radius: 0 !important;
      }
@@ -33,6 +26,13 @@
          border-bottom-left-radius: 0 !important;
          border-left: 0px !important;
      }
+}
+
+@media(max-width: 700px) {
+    .header-contact {
+        width: 80px;
+        font-size: 0.9rem;
+    }
 }
 
 .home-header {
