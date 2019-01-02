@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import './About.scss';
 import './Resources.scss';
@@ -11,9 +11,12 @@ class Home extends Component {
                 <header className="container pt-5">
                     <div className="d-flex justify-content-between">
                         <div><img src="/public/images/logo.svg" height="50" alt=""/></div>
-                        <Link to="/contact">
-                            <div><button className="btn header-contact">Contact</button></div>
-                        </Link>
+                        <div className="links">
+                            <a href="https://scottwselke.com/blog" className="btn header-contact">Blog</a>
+                            <Link to="/contact">
+                                <div><button className="btn header-contact">Contact</button></div>
+                            </Link>
+                        </div>
                     </div>
                 </header>
                 <div className="home-header">
