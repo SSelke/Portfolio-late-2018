@@ -52,14 +52,14 @@ class Home extends Component {
                                     <ul>
                                         <li>Atom</li>
                                         <li>Codepen</li>
-                                        <li>Command Prompt</li>
-                                        <li>Git</li>
-                                        <li>Github</li>
+                                        <li>Git + Github</li>
                                         <li>Google Analytics</li>
+                                        <li>Microsoft Command Prompt</li>
                                         <li>Mlab</li>
+                                        <li>Nginx + Certbot</li>
                                         <li>Postman</li>
                                         <li>Sublime</li>
-                                        <li>Terminal</li>
+                                        <li>Linux Terminal</li>
                                         <li>Visual Studio Code</li>
                                     </ul>
                                 </div>
