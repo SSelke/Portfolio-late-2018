@@ -19,12 +19,14 @@
        a {
          border-top-right-radius: 0 !important;
          border-bottom-right-radius: 0 !important;
+         max-height: 45.33px;
      }
 
      button {
          border-top-left-radius: 0 !important;
          border-bottom-left-radius: 0 !important;
          border-left: 0px !important;
+         height: 100% !important;
      }
 }
 
@@ -32,6 +34,12 @@
     .header-contact {
         width: 80px;
         font-size: 0.9rem;
+    }
+
+    .links {
+        a {
+            height: 39.33px;
+        }
     }
 }
 
