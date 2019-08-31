@@ -9,6 +9,7 @@ class Home extends Component {
         return (
             <div className="container-fluid m-0 p-0 text-center h-100">
                 <header className="container pt-5">
+                    <div className="banner-warning">A new site is currently under development</div>
                     <div className="d-flex justify-content-between">
                         <div><img src="/public/images/logo.svg" height="50" alt=""/></div>
                         <div className="links">
@@ -45,7 +46,7 @@ class Home extends Component {
                                 <p>All of my applications are built with proper programming philosophies using structured and reusable code to reduce development time and future proof code.</p>
                                 <div className="skillz-content">
                                     <h5>Technologies</h5>
-                                    <p>HTML5, CSS3: Sass - Less, JavaScript: ES5 - ES6, JQuery, React.js: Redux - Redux Thunk | React Router, Angluar5, Node,js: Express.js, Python: Flask - Django, MongoDB, MySQL, REST</p>
+                                    <p>HTML5, CSS3: Sass, JavaScript: ES5 - ES6, JQuery, React.js, Gatsby.js, Node.js: Express.js, Java, MongoDB, MySQL, GraphQL, REST</p>
                                 </div>
                                 <div className="skillz-content">
                                     <h5>Dev Tools</h5>
@@ -102,6 +103,13 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-4 my-3">
+                                <a href="https://develop--bambooasia.netlify.com/" target="_blank" rel="noopener noreferrer">
+                                    <div className="recent-work-tile bamboo_asia">
+                                        <div className="hover d-flex align-items-center justify-content-center"><h4>Bamboo Asia</h4></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="col-md-4 my-3">
                                 <a href="http://www.happyperm.com" target="_blank" rel="noopener noreferrer">
                                     <div className="recent-work-tile happy_perm">
                                         <div className="hover d-flex align-items-center justify-content-center"><h4>Happy Perm</h4></div>
@@ -112,13 +120,6 @@ class Home extends Component {
                                 <a href="https://sselke.github.io/clone-website/" target="_blank" rel="noopener noreferrer">
                                     <div className="recent-work-tile morris">
                                         <div className="hover d-flex align-items-center justify-content-center"><h4>Morris Jenkins</h4></div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="col-md-4 my-3">
-                                <a href="http://retro-archive.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                                    <div className="recent-work-tile retro">
-                                        <div className="hover d-flex align-items-center justify-content-center"><h4>Retro Archive</h4></div>
                                     </div>
                                 </a>
                             </div>
@@ -141,7 +142,6 @@ class Home extends Component {
                             <div className="mx-5 my-auto contact-links">
                                 <div className="my-3"><i className="fab fa-github mr-3"></i><a href="https://github.com/SSelke?tab=repositories" target="_blank" rel="noopener noreferrer">Github // SSelke</a></div>
                                 <div className="my-3"><i className="fab fa-linkedin mr-3"></i><a href="https://www.linkedin.com/in/scott-selke/" target="_blank" rel="noopener noreferrer">LinkedIn // scott-selke</a></div>
-                                <div className="my-3"><i className="fab fa-twitch mr-3"></i><a href="https://www.twitch.tv/lofidevelopment" target="_blank" rel="noopener noreferrer">Twitch // LofiDevelopment</a></div>
                             </div>
                         </div>
                     </div>

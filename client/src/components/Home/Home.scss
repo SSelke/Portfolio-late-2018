@@ -14,6 +14,17 @@
     }
 }
 
+.banner-warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: rgba(252, 232, 3, 0.4);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
 .links {
     display: flex;
        a {
@@ -168,7 +179,6 @@
 .recent-work-tile {
     height: 200px;
     border-radius: 20px;
-    border: 1px solid grey;
     cursor: pointer;
 
     &:hover {
@@ -193,13 +203,13 @@
     background-size: 100%;
 }
 
-.retro {
-    background: url(/public/images/retro.JPG);
+.happy_perm {
+    background: url(/public/images/perm.gif);
     background-size: 100%;
 }
 
-.happy_perm {
-    background: url(/public/images/perm.gif);
+.bamboo_asia {
+    background: url(/public/images/bamboo.jpg);
     background-size: 100%;
 }
 
